@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Invitación Cute 💖</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container" id="questionBox">
+  <img src="https://media.giphy.com/media/JIX9t2j0ZTN9S/giphy.gif" class="pet">
+
+  <h1>¿Quieres salir conmigo? 🐱🐶</h1>
+
+  <div class="buttons">
+    <button id="yesBtn">Sí 💖</button>
+    <button id="noBtn">No 😿</button>
+  </div>
+
+  <p id="message"></p>
+</div>
+
+<form class="container hidden" id="formBox"
+action="https://formsubmit.co/TUCORREO@gmail.com"
+method="POST">
+
+  <img src="https://media.giphy.com/media/v6aOjy0Qo1fIA/giphy.gif" class="pet">
+
+  <h1>Perfecto ✨</h1>
+
+  <label>Escoge una fecha 📅</label>
+  <input type="date" name="Fecha">
+
+  <label>Escoge una hora ⏰</label>
+  <input type="time" name="Hora">
+
+  <label>¿Qué plan quieres? 🍿</label>
+
+  <div class="options">
+    <label><input type="checkbox" name="Plan" value="Ver película"> Ver película 🎬</label>
+    <label><input type="checkbox" name="Plan" value="Ver serie"> Ver serie 📺</label>
+    <label><input type="checkbox" name="Plan" value="Ir al cine"> Ir al cine 🍿</label>
+    <label><input type="checkbox" name="Plan" value="Ir por helado"> Ir por helado 🍦</label>
+    <label><input type="checkbox" name="Plan" value="Cocinar juntos"> Cocinar juntos 🍜</label>
+    <label><input type="checkbox" name="Plan" value="Ir a comer"> Ir a comer 🍔</label>
+    <label><input type="checkbox" name="Plan" value="Pasear y ver tiendas"> Pasear y ver tiendas 🛍️</label>
+  </div>
+
+  <input type="hidden" name="_subject" value="Nueva invitación aceptada 💖">
+
+  <button type="button" id="continueBtn">Continuar 💕</button>
+
+  <div class="hidden" id="termsBox">
+    <img src="https://media.giphy.com/media/mlvseq9yvZhba/giphy.gif" class="pet">
+
+    <h1>Términos y condiciones 🐾</h1>
+
+    <ul>
+      <li>Dar cariño infinito 💖</li>
+      <li>Compartir memes ✨</li>
+      <li>Mandar reels graciosos 😂</li>
+      <li>Dar abrazos cuando sea necesario 🤗</li>
+    </ul>
+
+    <button type="submit" id="acceptBtn">
+      Acepto los términos y condiciones 💘
+    </button>
+  </div>
+
+</form>
+
+<div class="container hidden" id="finalBox">
+  <img src="https://media.giphy.com/media/ICOgUNjpvO0PC/giphy.gif" class="pet">
+  <h1>YA NO HAY VUELTA ATRÁS 😹💖</h1>
+  <p>La cita ha sido oficialmente aceptada ✨</p>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
